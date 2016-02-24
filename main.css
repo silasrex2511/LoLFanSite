@@ -1,0 +1,28 @@
+body{
+	background:black;
+	background-image: url("res/LeagueHeader.png");
+	background-size:100%;
+	background-repeat: no-repeat;
+	text-align:center;
+}
+header{
+	margin:auto;
+}
+a{
+	text-decoration:none;
+}
+nav{
+	background:gray;
+}
+li{
+	display:inline;
+	list-style:none;
+	padding:20px;
+	color:#0ff;
+	font-size:32px;
+}
+section{
+	margin:auto;
+	background:#333;
+	max-width:1000px;
+}
