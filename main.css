@@ -1,3 +1,6 @@
+*{
+	font-family:"tahoma";
+}
 body{
 	background:black;
 	background-image: url("res/LeagueHeader.png");
@@ -13,6 +16,8 @@ a{
 }
 nav{
 	background:gray;
+	width:100%;
+	margin-bottom: 100px;
 }
 li{
 	display:inline;
@@ -23,6 +28,24 @@ li{
 }
 section{
 	margin:auto;
-	background:#333;
+	background:#000;
 	max-width:1000px;
+	padding:10px;
+	min-height:600px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	color:white;
+}
+article{
+	text-align:left;
+	background:#444;
+	padding:5px;
+	margin-bottom:5px;
+	color:white;
+}
+.AECH1{
+	font-size:32px;
+}
+.AECH2{
+	font-size:24px;
 }
