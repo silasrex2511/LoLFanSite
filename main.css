@@ -4,8 +4,8 @@
 }
 body{
 	background:black;
-	background-image: url("res/LeagueHeader.png");
-	background-size:100%;
+	background-image: url("res/RedLolHeader.jpg");
+	background-size:100% 1000px;
 	background-repeat: no-repeat;
 	text-align:center;
 }
@@ -16,10 +16,10 @@ a{
 	text-decoration:none;
 }
 a:link{
-	color:cyan;
+	color:red;
 }
 a:visited{
-	color:cyan;
+	color:maroon;
 }
 nav{
 	width:100%;
@@ -38,7 +38,7 @@ nav>ul>li{
 section{
 	margin:auto;
 	background:#000;
-	max-width:1000px;
+	width:1000px;
 	padding:10px;
 	min-height:600px;
 	border-top-right-radius: 10px;
@@ -60,4 +60,8 @@ article{
 }
 footer{
 	color:white;
+	background:black;
+	width:1020px;
+	margin:auto;
+	padding-bottom:15px;
 }
