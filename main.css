@@ -1,6 +1,7 @@
 *{
-	font-family:"tahoma";
+	font-family:"times new roman"; 
 	margin:0px;
+
 }
 body{
 	background:black;
@@ -11,6 +12,9 @@ body{
 }
 header{
 	margin:auto;
+}
+p{
+	font-size:17px
 }
 a{
 	text-decoration:none;
@@ -53,9 +57,11 @@ article{
 	color:white;
 }
 .AECH1{
+	font-family: Papyrus, fantasy;
 	font-size:32px;
 }
 .AECH2{
+	font-family: Perpetua;
 	font-size:24px;
 }
 footer{
@@ -64,4 +70,8 @@ footer{
 	width:1020px;
 	margin:auto;
 	padding-bottom:15px;
+}.kobe {
+	text-align: justify;
+	font-family: "Times new roman";
+	font-size: 17px;
 }
